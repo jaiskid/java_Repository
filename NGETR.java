@@ -1,6 +1,7 @@
 import java.util.*;
 public class NGETR {
 	public static int[] solve(int[] arr) {
+		//isme stack ke ander jaa rahi  he value 
 		int [] nge = new int[arr.length];
 		Stack<Integer> st = new Stack<>();
 		st.push(arr[arr.length - 1]);
