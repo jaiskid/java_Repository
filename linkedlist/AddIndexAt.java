@@ -104,7 +104,7 @@ public class AddIndexAt {
 			} else if (idx == size) {
 				addLast(val);
 			} else {
-				Node node new Node();
+				Node node = new Node();
 				node.data = val;
 				Node temp = head;
 				for (int i = 0; i < idx - 1; i++) {

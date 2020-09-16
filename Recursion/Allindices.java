@@ -25,4 +25,4 @@ public class Allindices {
 			System.out.println(item);
 		}
 	}
-}
+}`

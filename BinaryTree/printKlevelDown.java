@@ -38,7 +38,7 @@ public class printKlevelDown {
 				top.state++;
 			} else if (top.state == 2) {
 				idx++;
-				if (arr[idx] != null) {
+				if (arr[idx] != null) {r
 					top.node.right = new Node(arr[idx] , null, null);
 					Pair rp = new Pair(top.node.right, 1);
 					st.push(rp);
